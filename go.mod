@@ -1,22 +1,22 @@
 module github.com/qdm12/gluetun
 
-go 1.26
+go 1.26.0
 
 require (
 	github.com/ProtonMail/go-srp v0.0.7
-	github.com/amnezia-vpn/amneziawg-go/v3 v3.0.3
-	github.com/breml/rootcerts v0.3.7
+	github.com/amnezia-vpn/amneziawg-go/v3 v3.1.20260828
+	github.com/breml/rootcerts v0.3.8
 	github.com/fatih/color v1.19.0
 	github.com/jsimonetti/rtnetlink v1.4.2
-	github.com/klauspost/compress v1.20.0
-	github.com/klauspost/pgzip v1.2.6
+	github.com/klauspost/compress v1.20.3
+	github.com/klauspost/pgzip v1.3.0
 	github.com/mdlayher/genetlink v1.4.0
-	github.com/mdlayher/netlink v1.9.0
-	github.com/miekg/dns v1.1.62
+	github.com/mdlayher/netlink v1.11.2
+	github.com/miekg/dns v1.1.73
 	github.com/pelletier/go-toml/v2 v2.4.3
 	github.com/pquerna/otp v1.5.0
-	github.com/prometheus/client_golang v1.20.5
-	github.com/prometheus/client_model v0.6.1
+	github.com/prometheus/client_golang v1.25.0
+	github.com/prometheus/client_model v0.6.3
 	github.com/qdm12/dns/v2 v2.0.0-rc9.0.20260909224732-d83961363ca2
 	github.com/qdm12/gluetun-servers v0.2.0
 	github.com/qdm12/goservices v0.1.1-0.20251104135713-6bee97bd4978
@@ -28,42 +28,40 @@ require (
 	github.com/qdm12/ss-server v0.6.0
 	github.com/stretchr/testify v1.12.1
 	github.com/ti-mo/netfilter v0.5.3
-	github.com/ulikunitz/xz v0.5.16
-	github.com/youmark/pkcs8 v0.0.0-20201027041543-1326539a0a0a
+	github.com/ulikunitz/xz v0.5.17
+	github.com/youmark/pkcs8 v0.0.0-20240726163527-a2c0da244d78
 	go.uber.org/mock v0.6.0
-	golang.org/x/net v0.55.0
-	golang.org/x/sys v0.45.0
-	golang.org/x/text v0.38.0
-	golang.zx2c4.com/wireguard v0.0.0-20260522210424-ecfc5a8d5446
-	golang.zx2c4.com/wireguard/wgctrl v0.0.0-20230429144221-925a1e7659e6
-	google.golang.org/protobuf v1.35.1
+	golang.org/x/net v0.62.0
+	golang.org/x/sys v0.49.0
+	golang.org/x/text v0.43.0
+	golang.zx2c4.com/wireguard v0.0.0-20261024220952-b3bc704ef0ee
+	golang.zx2c4.com/wireguard/wgctrl v0.0.0-20241231184526-a9ab2273dd10
+	google.golang.org/protobuf v1.36.12
 	gopkg.in/ini.v1 v1.67.3
 )
 
 require (
 	github.com/ProtonMail/bcrypt v0.0.0-20211005172633-e235017c1baf // indirect
-	github.com/ProtonMail/go-crypto v1.3.0-proton // indirect
+	github.com/ProtonMail/go-crypto v1.5.2 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
-	github.com/boombuler/barcode v1.0.1-0.20190219062509-6c824513bacc // indirect
+	github.com/boombuler/barcode v1.1.0 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
-	github.com/cloudflare/circl v1.6.1 // indirect
+	github.com/cloudflare/circl v1.6.5 // indirect
 	github.com/cronokirby/saferith v0.33.0 // indirect
 	github.com/google/go-cmp v0.7.0 // indirect
-	github.com/mattn/go-colorable v0.1.14 // indirect
-	github.com/mattn/go-isatty v0.0.20 // indirect
-	github.com/mdlayher/socket v0.6.0 // indirect
+	github.com/mattn/go-colorable v0.1.16 // indirect
+	github.com/mattn/go-isatty v0.0.24 // indirect
+	github.com/mdlayher/socket v0.8.0 // indirect
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
-	github.com/prometheus/common v0.60.1 // indirect
-	github.com/prometheus/procfs v0.15.1 // indirect
+	github.com/prometheus/common v0.72.1 // indirect
+	github.com/prometheus/procfs v0.23.0 // indirect
 	github.com/riobard/go-bloom v0.0.0-20200614022211-cdc8013cb5b3 // indirect
 	go.yaml.in/yaml/v3 v3.0.5 // indirect
-	golang.org/x/crypto v0.52.0 // indirect
-	golang.org/x/exp v0.0.0-20241009180824-f66d83c29e7c // indirect
-	golang.org/x/mod v0.36.0 // indirect
-	golang.org/x/sync v0.21.0 // indirect
-	golang.org/x/tools v0.45.0 // indirect
+	golang.org/x/crypto v0.58.0 // indirect
+	golang.org/x/exp v0.0.0-20261014143641-f0251eb4aa3e // indirect
+	golang.org/x/sync v0.24.0 // indirect
 	golang.zx2c4.com/wintun v0.0.0-20230126152724-0fa3db229ce2 // indirect
-	kernel.org/pub/linux/libs/security/libcap/cap v1.2.70 // indirect
-	kernel.org/pub/linux/libs/security/libcap/psx v1.2.70 // indirect
+	kernel.org/pub/linux/libs/security/libcap/cap v1.2.78 // indirect
+	kernel.org/pub/linux/libs/security/libcap/psx v1.2.78 // indirect
 )
